@@ -213,6 +213,7 @@ Settings.dbversion = "0.1.0";
 Settings.font = "tahoma";
 Settings.defaultWidth = Math.round(window.screen.availWidth * 0.8);
 Settings.defaultHeight = Math.round(window.screen.availHeight * 0.8);
+Settings.activateVpn = true;
 
 // Miscellaneous
 Settings.playerSubPosition = "0px";

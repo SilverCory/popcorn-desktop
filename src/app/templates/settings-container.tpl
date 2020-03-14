@@ -106,6 +106,11 @@
             </span>
 
             <span class="advanced">
+                <input class="settings-checkbox" name="activateVpn" id="cb-avpn" type="checkbox" <%=(Settings.activateVpn? "checked='checked'":"")%>>
+                <label class="settings-label" for="cb-avpn"><%= i18n.__("Suggest VPN") %></label>
+            </span>
+
+            <span class="advanced">
                 <div class="dropdown watchedCovers">
                     <p><%= i18n.__("Watched Items") %></p>
                         <%

@@ -237,6 +237,7 @@
             case 'alwaysFullscreen':
             case 'minimizeToTray':
             case 'bigPicture':
+            case 'activateVpn':
             case 'activateTorrentCollection':
             case 'activateWatchlist':
             case 'activateRandomize':
